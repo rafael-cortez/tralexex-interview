@@ -5,7 +5,7 @@ import org.junit.Test;
 
 public class ClientTest {
 
-    private String name = "John Doe Smith Johnson";
+    private final String name = "John Doe Smith Johnson";
 
     @Test
     public void tryToCreateClassWithEmptyName(){
